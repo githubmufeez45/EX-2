@@ -19,6 +19,7 @@
 ```PYTHON 3 
 ## Developed : SHAIK MUFEEZ
 ## Reg no : 212221043007
+import socket
 s=socket.socket()
 s.bind(('localhost',8000))
 s.listen(5)
